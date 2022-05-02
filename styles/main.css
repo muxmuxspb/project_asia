@@ -30,7 +30,7 @@ p {
     box-sizing: border-box;
 }
 .wrapper {
-    background: url(/img/1.jpg) left 200px top no-repeat, url(/img/2.jpg) left 200px bottom 165px no-repeat; 
+    background: url(/project_asia/img/1.jpg) left 200px top no-repeat, url(/project_asia/img/2.jpg) left 200px bottom 165px no-repeat; 
 }
 .hero{
     margin: 0 auto;
@@ -145,7 +145,7 @@ margin-bottom: 72px;
     position: relative;
     top: 3px;
     left: 13px;
-    content: url(/img/flame.png);
+    content: url(/project_asia/project_asia/img/flame.png);
 }
 .offers__item {
     display: inline-block;
@@ -286,7 +286,7 @@ margin-bottom: 72px;
     content: "";
     width: 490px;
     height: 505px;
-    background: url(/img/gates.jpg) center center / cover no-repeat;
+    background: url(/project_asia/img/gates.jpg) center center / cover no-repeat;
     border-radius: 5px;
     margin-bottom: 80px;
 }
@@ -294,7 +294,7 @@ margin-bottom: 72px;
     border-radius: 5px;
     width: 785px;
     height: 455px;
-    background: url(/img/mountains.jpg) center center / cover no-repeat;
+    background: url(/project_asia/img/mountains.jpg) center center / cover no-repeat;
     padding: 70px 80px;
     margin-top: -490px;
     margin-left: 355px;
@@ -346,26 +346,26 @@ margin-bottom: 72px;
 
 }
 .social__item--icon--tg .social__link {
-    background: url(/img/telegram.png);
+    background: url(/project_asia/img/telegram.png);
 }
 .social__item--icon--tg .social__link:hover {
-    background: url(/img/telegram-hover.png);
+    background: url(/project_asia/img/telegram-hover.png);
 }
 .social__item--icon--vk .social__link {
-    background: url(/img/vk.png);
+    background: url(/project_asia/img/vk.png);
 }
 .social__item--icon--vk .social__link:hover {
-    background: url(/img/vk-hover.png);
+    background: url(/project_asia/img/vk-hover.png);
 }
 .social__item--icon--fb .social__link {
-    background: url(/img/fb.png);
+    background: url(/project_asia/img/fb.png);
 }
 .social__item--icon--fb .social__link:hover {
-    background: url(/img/fb-hover.png);
+    background: url(/project_asia/img/fb-hover.png);
 }
 .social__item--icon--ig .social__link {
-    background: url(/img/ig.png);
+    background: url(/project_asia/img/ig.png);
 }
 .social__item--icon--ig .social__link:hover {
-    background: url(/img/ig-hover.png);
+    background: url(/project_asia/img/ig-hover.png);
 }
