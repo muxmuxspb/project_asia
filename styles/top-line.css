@@ -1,0 +1,21 @@
+.top-line {
+    display: flex;
+    flex-direction: column;
+    min-height:412px;
+    background: url(/img/headline1.jpg) center center / cover no-repeat;
+}
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.top-line__content {
+    width: 45%;
+}
+.top-line__title {
+    font-size: 72px;
+    font-weight: bold;
+    padding-bottom: 100px;
+}

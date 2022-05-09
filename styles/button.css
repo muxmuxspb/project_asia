@@ -1,0 +1,49 @@
+.button {
+    border-radius: 35px;
+    padding: 18px 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.button:hover {
+    background-color: #DA0100;
+    color: #FFFFFF;
+}
+.button--red {
+    background: #F5170E;
+}
+.offer__button{
+    border: 1px solid #F5170E;
+    border-radius: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 17px 29px;
+    background: #FFFFFF;
+    color: #F5170E;
+}
+.offer__button:hover {
+    background: #F5170E;
+    color: #FFFFFF;
+}
+.service-button__wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+.button--theme--white{
+    border: 1px solid #F5170E;
+    border-radius: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 17px 40px;
+    background: #FFFFFF;
+    color: #F5170E;
+}
+.button--theme--white:hover {
+    background: #F5170E;
+    color: #FFFFFF;
+}

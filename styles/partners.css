@@ -1,0 +1,22 @@
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.partners__item {
+    margin-left: 50px;
+}
+.partners__item:nth-child(4n + 1){
+    margin-left: 0px;
+}
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+.partners__link:hover {
+    filter: grayscale(0);
+}

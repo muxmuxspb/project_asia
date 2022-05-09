@@ -1,0 +1,43 @@
+.social__list {
+    margin-right: 74px;
+}
+.social__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.social__item:last-child {
+    margin-right: 0;
+}
+.social__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+
+}
+.social__item--icon--tg .social__link {
+    background: url(/project_asia/img/telegram.png);
+}
+.social__item--icon--tg .social__link:hover {
+    background: url(/project_asia/img/telegram-hover.png);
+}
+.social__item--icon--vk .social__link {
+    background: url(/project_asia/img/vk.png);
+}
+.social__item--icon--vk .social__link:hover {
+    background: url(/project_asia/img/vk-hover.png);
+}
+.social__item--icon--fb .social__link {
+    background: url(/project_asia/img/fb.png);
+}
+.social__item--icon--fb .social__link:hover {
+    background: url(/project_asia/img/fb-hover.png);
+}
+.social__item--icon--ig .social__link {
+    background: url(/project_asia/img/ig.png);
+}
+.social__item--icon--ig .social__link:hover {
+    background: url(/project_asia/img/ig-hover.png);
+}
