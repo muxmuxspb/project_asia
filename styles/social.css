@@ -1,43 +1,100 @@
 .social__list {
     margin-right: 74px;
 }
+
 .social__item {
     display: inline-block;
     vertical-align: middle;
     margin-right: 6px;
 }
+
 .social__item:last-child {
     margin-right: 0;
 }
+
+.social__link:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    opacity: 0;
+    transition: .4s;
+}
+
 .social__link {
     display: block;
     text-decoration: none;
     width: 36px;
     height: 36px;
-    background: center center no-repeat;
+}
 
+.social__link:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    transition: .4s;
 }
-.social__item--icon--tg .social__link {
-    background: url(/project_asia/img/telegram.png);
+
+.social__item--icon--tg .social__link,
+.social__item--icon--vk .social__link,
+.social__item--icon--fb .social__link,
+.social__item--icon--in .social__link {
+    width: 36px;
+    height: 36px;
+    position: relative;
 }
-.social__item--icon--tg .social__link:hover {
-    background: url(/project_asia/img/telegram-hover.png);
+
+.social__item--icon--tg .social__link:hover:before,
+.social__item--icon--vk .social__link:hover:before,
+.social__item--icon--fb .social__link:hover:before,
+.social__item--icon--in .social__link:hover:before {
+    opacity: 1;
 }
-.social__item--icon--vk .social__link {
-    background: url(/project_asia/img/vk.png);
+
+.social__item--icon--tg .social__link:hover:after,
+.social__item--icon--vk .social__link:hover:after,
+.social__item--icon--fb .social__link:hover:after,
+.social__item--icon--in .social__link:hover:after {
+    opacity: 0;
 }
-.social__item--icon--vk .social__link:hover {
-    background: url(/project_asia/img/vk-hover.png);
+
+.social__item--icon--tg .social__link:before {
+    background: url('/project_asia/img/icons/icons.png') -46px -82px;
 }
-.social__item--icon--fb .social__link {
-    background: url(/project_asia/img/fb.png);
+
+.social__item--icon--tg .social__link:after {
+    background: url('/project_asia/img/icons/icons.png') -5px -82px;
 }
-.social__item--icon--fb .social__link:hover {
-    background: url(/project_asia/img/fb-hover.png);
+
+.social__item--icon--vk .social__link:before {
+    background: url('/project_asia/img/icons/icons.png') -46px -123px;
 }
-.social__item--icon--ig .social__link {
-    background: url(/project_asia/img/ig.png);
+
+.social__item--icon--vk .social__link:after {
+    background: url('/project_asia/img/icons/icons.png') -5px -123px;
 }
-.social__item--icon--ig .social__link:hover {
-    background: url(/project_asia/img/ig-hover.png);
+
+.social__item--icon--fb .social__link:before {
+    background: url('/project_asia/img/icons/icons.png') -46px -0px;
+}
+
+.social__item--icon--fb .social__link:after {
+    background: url('/project_asia/img/icons/icons.png') -5px -0px;
+}
+
+.social__item--icon--in .social__link:before {
+    background: url('/project_asia/img/icons/icons.png') -46px -41px;
+}
+
+.social__item--icon--in .social__link:after {
+    background: url('/project_asia/img/icons/icons.png') -5px -41px;
 }

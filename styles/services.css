@@ -6,23 +6,28 @@
     padding-bottom: 84px;
     background: #FFFFFF;
 }
+
 .service-offer__list {
     padding-top: 99px;
     display: flex;
     flex-direction: column;
 }
+
 .service-offer__item {
     display: flex;
     justify-content: space-between;
     min-height: 333px;
     margin-bottom: 49px;
 }
+
 .service-offer__item:last-child {
     margin-bottom: 62px;
 }
+
 .service__offer-img {
     border-radius: 5px;
 }
+
 .service-item__content {
     display: flex;
     flex-direction: column;
@@ -30,11 +35,13 @@
     padding: 10px 10px 19px 56px;
     width: 60%;
 }
+
 .service-item__title {
     font-size: 36px;
     font-weight: bold;
     color: black;
 }
+
 .service-item__text {
     font-size: 16px;
     color: #303030;

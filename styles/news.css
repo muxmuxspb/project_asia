@@ -1,25 +1,30 @@
 .news {
     margin-bottom: 148px;
 }
+
 .news__list {
     display: flex;
     justify-content: space-between;
     margin-bottom: 51px;
 }
+
 .news__item {
     display: flex;
     width: calc(100% / 2 - 14px);
     border-radius: 5px;
     min-height: 394px;
 }
+
 .news__item:last-child {
     margin-right: 0;
 }
+
 .item--plain {
-    background: url(/project_asia/img/plain.jpg) center center / cover no-repeat;;
+    background: url(/project_asia/img/plain.jpg) center center / cover no-repeat;
 }
+
 .item--surf {
-    background: url(/project_asia/img/Surfer.jpg) center center / cover no-repeat;;
+    background: url(/project_asia/img/Surfer.jpg) center center / cover no-repeat;
 }
 
 .news__text-content {
@@ -38,11 +43,13 @@
     justify-content: flex-end;
     align-content: stretch;
 }
+
 .news__title {
     font-size: 24px;
     font-weight: bold;
     padding-top: 15px;
 }
+
 .news__lead {
     display: flex;
     justify-content: flex-start;

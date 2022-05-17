@@ -1,4 +1,15 @@
 .logo {
     display: block;
+}
+
+.logo__big {
+    height: 42px;
+    width: 98px;
+    margin-right: 68px;
+}
+
+.logo__small {
+    width: 85px;
+    height: 36px;
     margin-right: 79px;
 }

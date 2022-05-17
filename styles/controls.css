@@ -1,0 +1,27 @@
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.controls__item {
+  margin-bottom: 10px;
+  margin-left: 16px;
+}
+
+.controls__item:nth-child(5n + 1) {
+  margin-left: 0px;
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked~.controls__tag {
+  background: #B9EAE4;
+}
+
+.controls__checkbox {
+  display: none;
+}

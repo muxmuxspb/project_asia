@@ -1,0 +1,24 @@
+.separator {
+  background-image: url(/project_asia/img/couple.png), url(/project_asia/img/middleline.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right 27%, center center;
+  background-size: auto, cover;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 84px;
+  justify-content: center;
+}
+
+.separator__content {
+  max-width: 50%;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.separator__img {
+  display: flex;
+}

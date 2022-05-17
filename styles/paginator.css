@@ -2,19 +2,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .paginator__list {
     display: flex;
     align-items: center;
 }
+
 .paginator__text {
     padding-right: 25px;
 }
+
 .paginator__item {
     padding-right: 2px;
     text-align: center;
 }
+
 .paginator__item:last-child {
     padding-right: 0px;
 }
@@ -28,22 +32,29 @@
     text-decoration: none;
     line-height: 32px;
 }
+
 .paginator__link:hover {
     background: #FFFFFF;
     color: #F5170E;
+    transition: .3s;
 }
+
 .paginator__item--active .paginator__link {
     background: #FFFFFF;
-    color: #F5170E; 
+    color: #F5170E;
 }
+
 .paginator--theme--black {
     color: #000000;
 }
+
 .paginator--theme--black .paginator__list .paginator__item--active .paginator__link {
     background: #F5170E;
-    color: #000000; 
+    color: #000000;
 }
+
 .paginator--theme--black .paginator__link:hover {
     background: #F5170E;
-    color: #000000; 
+    color: #000000;
+    transition: .3s;
 }

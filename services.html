@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="/project_asia/styles/main.css">
 
 <body>
@@ -21,7 +21,7 @@
       <div class="container top-line__container">
         <header class="header">
           <div class="header__col">
-            <a href="#" class="logo">
+            <a href="#" class="logo logo__big">
               <img src="/project_asia/img/logo.png" alt="Air Asia Logo" class="logo__img">
             </a>
             <nav class="menu">
@@ -33,7 +33,7 @@
                   <a href="/project_asia/services.html" class="menu__link">Услуги</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Отзывы</a>
+                  <a href="/project_asia/reviews.html" class="menu__link">Отзывы</a>
                 </li>
               </ul>
             </nav>
@@ -41,7 +41,19 @@
           <div class="header__col header__col--align--right">
             <adress class="contacts">
               <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-              <div class="contacts__time">График работы</div>
+              <div class="contacts__time">
+                <a href="" class="dropdown">График работы</a>
+                <div class="dropdown__menu">
+                  <ul class="dropdown__list">
+                    <li class="dropdown__item">
+                      <div class="dropdown__text dropdown__text--bold">пн-вс: 09:00 - 20:00</div>
+                    </li>
+                    <li class="dropdown__item">
+                      <div class="dropdown__text">Обед: 14:00-14:30</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </adress>
           </div>
         </header>
@@ -50,7 +62,7 @@
           <div class="breadcrumbs">
             <ul class="breadcrumbs__list">
               <li class="breadcrumbs__item">
-                <a href="" class="breadcrumbs__link">Главная</a>
+                <a href="/project_asia/index.html" class="breadcrumbs__link">Главная</a>
               </li>
               <li class="breadcrumbs__item">
                 <a href="" class="breadcrumbs__link">Услуги</a>
@@ -85,7 +97,7 @@
             <div class="service-item__content">
               <h3 class="service-item__title">Остров обезьян</h3>
               <div class="service-item__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
-                несколько абзацев более менее осмысленного текста рыбы на русском языке,  а начинающему оратору отточить
+                несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить
                 навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
                 универсальный код речей.</div>
               <div class="service-button__wrapper">
@@ -123,9 +135,9 @@
         </div>
       </div>
     </section>
-    <section class="inner-section inner-section--bg--grey">
+    <section class="inner-section inner-section--bg--grey inner-section--partners">
       <div class="container">
-        <h2 class="inner-section__title">Партнеры
+        <h2 class="inner-section__title title-partners">Партнеры
         </h2>
         <ul class="partners">
           <li class="partners__item">
@@ -175,7 +187,7 @@
       <div class="container footer-container__content">
         <div class="footer footer-container__service">
           <div class="footer__col">
-            <a href="#" class="logo">
+            <a href="#" class="logo__big">
               <img src="/project_asia/img/logo.png" alt="Air Asia Logo" class="logo__img">
             </a>
             <nav class="menu">
@@ -184,10 +196,10 @@
                   <a href="/project_asia/index.html" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item menu__item--active">
-                  <a href="#" class="menu__link">Услуги</a>
+                  <a href="/project_asia/services.html" class="menu__link">Услуги</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Отзывы</a>
+                  <a href="/project_asia/reviews.html" class="menu__link">Отзывы</a>
                 </li>
               </ul>
             </nav>
@@ -206,7 +218,7 @@
                 <a href="" class="social__link">
                 </a>
               </li>
-              <li class="social__item social__item--icon--ig">
+              <li class="social__item social__item--icon--in">
                 <a href="" class="social__link">
                 </a>
               </li>
@@ -220,7 +232,5 @@
       </div>
     </footer>
   </div>
-
 </body>
-
 </html>

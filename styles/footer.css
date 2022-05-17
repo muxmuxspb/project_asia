@@ -1,28 +1,33 @@
 .footer-container {
     margin-top: auto;
 }
+
 .footer-container__content {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
+
 .footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .footer__col {
     display: flex;
     align-items: center;
 }
+
 .footer-container__section {
     height: 140px;
 }
+
 .footer-container__service {
     height: 144px;
 }
+
 .inner-footer {
     background: #001821;
 }

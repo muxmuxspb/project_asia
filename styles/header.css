@@ -1,5 +1,5 @@
 .header {
-    padding-top: 29px;
+    padding-top: 28px;
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
 }
+
 .header__col--align--right {
     justify-content: flex-end;
 }
